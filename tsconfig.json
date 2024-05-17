@@ -18,9 +18,13 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".", // Ensure baseUrl is set correctly
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["app/*"] // Adjust this to match your folder structure
     }
+    // "paths": {
+    //   "@/*": ["./*"]
+    // }
   },
   "include": [
     "next-env.d.ts",
