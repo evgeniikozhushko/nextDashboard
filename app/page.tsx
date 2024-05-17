@@ -23,7 +23,7 @@ export default function Page() {
                         </a>
                         , brought to you by Vercel.
                     </p>
-                    <h1 className="text-blue-500">I'm blue!</h1>
+                    <h1 className="text-blue-500">I am blue!</h1>
                     <Link
                         href="/login"
                         className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
